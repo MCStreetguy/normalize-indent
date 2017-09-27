@@ -1,0 +1,22 @@
+{
+  "name": "normalize-indent",
+  "description": "Reduces indentation of a (multiline) string.",
+  "main": "lib/normalize-indent.js",
+  "authors": [
+    "Maximilian Schmidt"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "indentation",
+    "indent",
+    "js",
+    "javascript"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

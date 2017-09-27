@@ -1,0 +1,26 @@
+{
+  "name": "normalize-indent",
+  "version": "0.0.0",
+  "description": "Reduces indentation of a (multiline) string.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCStreetguy/normalize-indent.git"
+  },
+  "keywords": [
+    "indentation",
+    "indent",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Maximilian Schmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCStreetguy/normalize-indent/issues"
+  },
+  "homepage": "https://github.com/MCStreetguy/normalize-indent#readme"
+}
