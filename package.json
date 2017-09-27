@@ -1,6 +1,6 @@
 {
   "name": "normalize-indent",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reduces indentation of a (multiline) string.",
   "main": "lib/main.js",
   "scripts": {
