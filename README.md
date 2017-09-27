@@ -1,5 +1,8 @@
 # normalize-indent
-Reduces indentation of a (multiline) string.
+This module uses a RegEx based replacement to normalize the indentation of a single- or multiline string.  
+The indentation is recognized with the first line and then removed from the beginning of any following line.
+
+**Please notice** that the function may produce unexpected results if the indentation is not unified!
 
 ## Setup
 
@@ -10,15 +13,25 @@ Reduces indentation of a (multiline) string.
 const normalizeIndent = require('normalize-indent');
 ```
 
-#### Web
+#### Bower
 > $ bower install normalize-indent
 
 ```HTML
 <script src="bower_components/normalize-indent/lib/normalize-indent.js" charset="utf-8" />
 ```
 
-#### Usage
+#### Direct link
+The modules can also be accessed directly through GitHub Raw Usercontent.
+
+GitHub Raw:  [https://raw.githubusercontent.com/MCStreetguy/normalize-indent/master/lib/normalize-indent.js](https://raw.githubusercontent.com/MCStreetguy/normalize-indent/master/lib/normalize-indent.js)  
+Shortened: [https://goo.gl/BjqiMj](https://goo.gl/BjqiMj)
+
+
+## Usage
 ```JavaScript
 var normalized = normalizeIndent('\t\t\tconsole.log("Hello World")\n\t\t\tconsole.log("Foobar")');
 ```
-> normalized == 'console.log("Hello World")\\nconsole.log("Foobar")'
+=>
+```JSON
+normalized: "console.log(\"Hello World\")\\nconsole.log(\"Foobar\")"
+```
